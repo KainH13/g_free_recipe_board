@@ -1,5 +1,7 @@
-# g_free_recipe_board
+# G-Free Recipe Board
 
-When needed, finding a good gluten free recipe can be hard. This is an example of an app for sharing and liking 'g-free' recipes!
+### Technology
+Built using full stack Python, Flask, and MySQL.
 
-This code isn't secure for deployment and needs security changes before being deployed to production.
+### Purpose
+When needed, finding a good gluten free recipe can be hard! This is an app for sharing and liking 'g-free' recipes demonstrating full stack Python/Flask web development.
