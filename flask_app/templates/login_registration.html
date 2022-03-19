@@ -13,13 +13,13 @@
     <title>G-Free</title>
 </head>
 
-<body class="col-10 offset-1">
-    <div class="navbar d-flex justify-content-start align-items-start">
-        <h1>G-Free</h1>
-        <h4 class="m-3">Your gluten free community recipe board</h4>
+<body>
+    <div class="navbar d-flex justify-content-center align-items-start">
+        <h1 class="ms-3 my-1 text-primary">G-Free</h1>
+        <h4 class="m-3 text-secondary">Gluten Free Recipe Board - Find Good G-Free Recipes Easily</h4>
     </div>
-    <div class="row">
-        <div class="col card col-6">
+    <div class="row m-2">
+        <div class="col card m-2 shadow">
             <h2 class="text-primary">Register</h2>
             {% with messages = get_flashed_messages(with_categories=true) %}
                 {% if messages %}
@@ -54,7 +54,7 @@
                 <input class="btn btn-outline-primary mb-3" type="submit" value="Register">
             </form>
         </div>
-        <div class="col card col-6">
+        <div class="col card m-2 shadow">
             <h2 class="text-success">Login</h2>
             {% with messages = get_flashed_messages(with_categories=true) %}
                 {% if messages %}
